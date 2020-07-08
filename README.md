@@ -5,7 +5,7 @@ There are two scripts here.
 
 'dartboard.py'draws a dart board with the correct proportions. You'll need to change the font location used in line 71.
 
-'darts_analysis.py' is a visual analysis of where it is best for darts players of different ability levels to aim. 
+'darts_v3.py' is a visual analysis of where it is best for darts players of different ability levels to aim. 
 
 If you run the program, you'll end up with a set of images saved in your folder. You'll have two images per player skill level (aim level) that you test. The first image will show the best places for players with that skill level to target, and the second image will show what 10,000 (or however many trials you do) shots looks like when a player with that skill level is aiming at the very best place for them to aim at. 
 
