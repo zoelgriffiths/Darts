@@ -192,7 +192,7 @@ def try_different_targets(number_of_shots,aim):
         x = 225.5 + top_5_percent_cartesian[i][0]
         y = 225.5 - top_5_percent_cartesian[i][1]
         value = 5+int((5/one_twentieth)*(top_5_percent_averages[i]-boundary))
-        draw.ellipse((x-value, y-value, x+value, y+value), fill=(255,255,0), outline=(0, 0, 0))
+        draw.ellipse((x-value, y-value, x+value, y+value), fill=(0,0,255), outline=(0, 0, 0))
     im.save("darts_targets_aim{0}.png".format(aim))
     #return the best place for the player to target as polar and cartesian
     return best_target_polar,best_target_cartesian
